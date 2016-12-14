@@ -20,7 +20,7 @@ var converter = new Converter({
 });
 var jsonStruct_countrys = "";
 //end_parsed will be emitted once parsing finished
-converter.on("end_parsed", function (jsonObject) {
+converter.on("end_parsed", function (jsonObject){
    jsonStruct_countrys = jsonObject;
    updateJSONFile();
 });
