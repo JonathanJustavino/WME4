@@ -38,4 +38,6 @@ jspm_packages
 
 #for intellij
 .idea
-.idea/**.xml
+
+#needed
+codeStyleSettings.xml
